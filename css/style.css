@@ -1,0 +1,39 @@
+
+    /* Navbar container */
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #333; /* Adjust the color as needed */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navbar items */
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/* Navbar links */
+nav ul li {
+    display: inline; /* Display list items in one line */
+    margin: 0 15px; /* Adjust spacing between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Adjust text size as needed */
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Hover effect */
+    color: white;
+}
+body{
+    background-color: blanchedalmond;
+}
